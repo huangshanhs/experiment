@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hsp.experiment.each.dao.TbTimescopeDao">
+
+    <!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.hsp.experiment.each.entity.TbTimescopeEntity" id="tbTimescopeMap">
+        <result property="id" column="id"/>
+        <result property="timeScope" column="time_scope"/>
+        <result property="timeStart" column="time_start"/>
+        <result property="timeEnd" column="time_end"/>
+    </resultMap>
+
+
+</mapper>
